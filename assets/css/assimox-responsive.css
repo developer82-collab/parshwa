@@ -1731,6 +1731,14 @@
     .main-menu__logo {
         margin-right: 0;
     }
+    .main-menu__logo img {
+        max-height: 70px;
+        max-width: 280px;
+    }
+    .footer-widget__logo img {
+        max-height: 80px;
+        max-width: 320px;
+    }
 
     .main-menu__left {
         justify-content: space-between;
@@ -1804,6 +1812,10 @@
 
     .main-menu__logo {
         margin-right: 30px;
+    }
+    .main-menu__logo img {
+        max-height: 75px;
+        max-width: 300px;
     }
 }
 

@@ -893,7 +893,11 @@ ul {
 }
 
 .main-menu__logo img{
-  max-height: 46px;
+  max-height: 90px;
+  max-width: 350px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 .main-menu__main-menu-box {
@@ -1459,6 +1463,13 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.mobile-nav__content .logo-box img {
+  max-height: 80px;
+  max-width: 320px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 .mobile-nav__close {
@@ -5074,9 +5085,14 @@ ul {
 .footer-widget__logo {
   position: relative;
   display: block;
+  margin-bottom: 20px;
 }
 .footer-widget__logo img{
-  max-height: 46px;
+  max-height: 100px;
+  max-width: 380px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 .site-footer__text {
